@@ -1,0 +1,58 @@
+<!DOCTYPE html> <!-- Tag, informando ao Navegador que se trata de um documento em HTML. Também declara a
+  versão do HTML. -->
+<html> <!-- Tag, que vai envolver todo o código em HTML. -->
+    <head> <!-- Tag, que indica configurações da página Web. -->
+        <title>HTML Fundamentos</title> <!-- Tag para título da página web. -->
+    </head>
+    <body style="padding-bottom: 500px"> <!-- Tag, que vai exibir os elementos no navegador, para serem visíveis ao usuário. 
+     padding-bottom: define dimensões do espaçamento interno inferior (distância do elemento para sua própria borda), conforme
+     a estrutura de box model que compõe cada elemento HTML na tela do navegador.    Fonte: Google        -->
+      <h1>Esse é um título importante.</h1> <!-- Tag de título. h1 é o título mais importante. OBS: Para cada
+        página HTML, h1 só poderá aparecer apenas uma única vez. Ou seja, numa mesma página, não pode haver mais
+        de uma tag h1.   É uma tag de bloco.       Importância Semântica. -->
+      
+      <img src="img/imagem_1_tela.jpg" alt="Print de Tela" /> <!-- Inserindo uma imagem. A imagem se chama imagem_1_tela.jpg , ao qual se localiza
+       na pasta chamada img.  O atributo alt serve para inserir texto, que descreve a imagem. Muito usado e importante, na parte de acessibilidade,
+       como também na parte de ser melhor rankeado pelo Google.
+      -->
+      
+      <h3>Um novo título.</h3> <!-- Tag de título. Também é uma tag de bloco.   -->
+      <!-- Tag p é para inserir parágrafo. Um parágrafo inicia uma nova linha. Essa tag é uma tag de bloco.-->
+      <p>Descrição dos nossos serviços</p>
+      <p>Mais um parágrafo</p>
+      <p>Uma parágrafo</p>
+      <br/> <!-- Tag para Quebra de Linha. OBS: Essa tag faz parte do Self Closing Tags, ou seja, uma tag que não
+                 possui uma outra tag de fechamento.
+            -->
+      <p>Segundo parágrafo</p>
+      <hr/> <!-- Tag para inserir uma linha horizontal. OBS: Também é uma tag Self Closing Tags. -->
+      Acesse o site do google aqui: <a href="https://www.google.com">Google</a> <!-- A tag a serve para acessar uma nova
+      página web. Aqui, neste caso, vai acessar o site do Google, numa mesma Aba do Navegador. -->
+      <br/>
+      <br/>
+      Acesse o site da UFPB aqui: <a href="https://www.ufpb.br" target="_blank">UFPB</a>
+      <br/>
+      <br/>
+      <ul> <!-- Lista Não Ordenada. -->
+        <li>Carro</li> <!-- Item da Lista. -->
+        <li>Navio</li> <!-- Item da Lista. -->
+      </ul>
+      <ol> <!-- Lista Ordenada. -->
+        <li>Lavar Carro</li> <!-- Item de Lista. -->
+        <li>Ir ao Mercado</li> <!-- Item de Lista. -->
+      </ol>
+      
+      <table> <!-- Criando uma Tabela. -->
+        <tr> <!-- Criando uma linha da Tabela. Linha 1. -->
+          <th>ID</th> <!-- Coluna 1 -->
+          <th>Nome</th> <!-- Coluna 2 -->
+          <th>Profissão</th> <!-- Coluna 3 -->
+        </tr>
+        <tr> <!-- Linha 2 -->
+          <td>1</td> <!-- Coluna 1 -->
+          <td>Matheus</td> <!-- Coluna 2-->
+          <td>Programador</td> <!-- Coluna 3 -->
+        </tr>
+      </table>
+    </body>
+</html>
