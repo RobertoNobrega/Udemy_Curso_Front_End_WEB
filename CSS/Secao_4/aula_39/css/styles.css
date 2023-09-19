@@ -1,0 +1,7 @@
+body{ /* Criando regra de estilização (Estilo da Folha) em CSS, para a tag do HTML chamada   body. */
+    padding-bottom: 500px; /* Espaçamento Interno (para a tag body), para baixo. */
+}
+
+h3{ /* Criando regra de estilização (Estilo da Folha) em CSS, para a tag do HTML chamada   h3. */
+    color: green;
+}

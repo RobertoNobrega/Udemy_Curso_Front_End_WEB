@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Pelo que foi compreendido, torna acessível (acessibilidade)
+     com tela Explorer.
+    -->
+    <title>Document</title>
+    <style>
+      p{ /* Estilo para a tag p.  */
+        color: goldenrod; /* Cor da Fonte Gráfica. */
+      }
+    </style>
+    <link rel="stylesheet" href="css/styles.css" /> <!-- Importando os estilos de CSS, para serem aplicados nesta página WEB.
+          Os estilos estão presentes no arquivo  styles.css . OBS: A ordem de declaração para importação do arquivo de estilos
+          do CSS no HTML, determinam também a prioridade de aplicação do estilo do CSS na página HTML. Neste exemplo aqui,
+          observa-se que, a tag link foi escrita depois da tag style ( contendo estilo interno CSS para a página HTML ). Portanto,
+          os estilos da tag style não serão aplicados, pois, após ele, foi importado o estilo CSS para esta página (lembrete: a aplicação
+          do internal e external apresentam o mesmo peso. A diferença de quem será aplicado, se "dá" como sendo a última declaração que
+          foi feita no arquivo HTML).
+    -->
+    <link rel="stylesheet" href="css/lists.css" /> <!-- Importando estilo css do arquivo lists.css. -->
+  </head>
+  <body>
+     <!-- 1 - Inline CSS -->
+     <h1 style="color:blue">Mudar cor com o Inline</h1>
+     <!-- 2 - Múltiplas Regras de CSS -->
+     <h1 style="color:purple; font-size:50px; border-bottom: 1px solid red">Mudar cor e Tamanho da Fonte</h1>
+     <!-- 3 - Internal CSS -->
+     <p>Isto é um teste.</p>
+     <!-- 4 - External CSS -->
+     <h3>Meu Título Verde</h3>
+     <!-- 5 - Ordem do CSS -->
+     <p style="color:red">Ordem do CSS</p> <!-- Neste Exemplo, a "ordem de estilo do CSS" será aplicado para o estilo do
+        inline (por conta da sua 'prioridade' da ordem de aplicação). Então, será aplicado a cor vermelha para a tag p.
+        -->
+     <p>Testando Aqui.</p>
+     <!-- 6 - Múltiplos CSS -->
+     <ul> <!-- Lista Não Ordenada. -->
+       <li>Banana;</li>
+       <li>Maçã;</li>
+       <li>Abacate.</li>
+     </ul>
+  </body>
+</html>
