@@ -1,0 +1,10 @@
+/* Esta "folha de estilo" será para lista(s). */
+
+ul{ /* Estilo para a tag ul. */
+    border: 1px solid blue; /* Borda, para baixo da lista. */
+    padding: 10px; /* Espaçamento "interno". */
+}
+
+li{ /* Estilo para a tag li. */
+    color: darkblue; /* Cor para o texto. */
+}
